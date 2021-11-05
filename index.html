@@ -9,8 +9,11 @@
     <body>
         <header>
             <h1>MI349 Blog</h1>
+            <div class="divhead">
+                <img src="msu_campus.jpg" width="150px" height="100px"><br>MSU
+            </div>
             <p>Welcome to my blog</p>
-            <nav>
+            <nav class="sticky">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
@@ -20,54 +23,60 @@
         </header>
         <section id="blog">
             <h2>My Life</h2>
-            <article class="blog-post">
-                <h3>Life in East Lansing</h3>
-                <address class="author">Joey Griffin</address> on <time datetime="2021-10-13" title="October 13, 2021">10/13/21</time>
-                <div style="width:600px;height:400px;">
-                <p>This school yeas has began with an incredible start, as many people
-            have come back to live at MSU. East Lansing is bustling with life again
-            and it is such a pleasure to see people walking around the city again.
-            Throughout the day, buses and cars go by as people are on their way to
-            class or work: and during the night, crowds walk through the city seeking
-            some attraction. Often times, I see this as "Nature is Healing", people
-            have finally returned to the college lifestyle and are enjoying every
-            second of it. It's sweet, to see campus bustling with so many activities
-            going on, and to see the active population taking part. With this positive 
-            start, I believe that the rest of this year will follow suit, with the
-            spring semester finishing strong. Throughout this time, my schedule has
-            become: wake up, go to class, come home, and then go out. It is truly
-            an exhilirating experience, with so much to do, and tons and tons of new
-            people to meet and hang out with. My only hope is that this kind of life
-            can continue, even with some spikes in covid around the city and state.
-            Nevertheless, I am enthralled to see East Lansing once alive again,
-            returning to it's former pre-Covid glory.
-                </p>
+            
+            <div class="row">
+                <div class="column" style="background-color: #bbb;">
+                    <h3>My Life in East Lansing</h3>
+                    <p>
+                        This school yeas has began with an incredible start, as many people
+                        have come back to live at MSU. East Lansing is bustling with life again
+                        and it is such a pleasure to see people walking around the city again.
+                        Throughout the day, buses and cars go by as people are on their way to
+                        class or work: and during the night, crowds walk through the city seeking
+                        some attraction. Often times, I see this as "Nature is Healing", people
+                        have finally returned to the college lifestyle and are enjoying every
+                        second of it. It's sweet, to see campus bustling with so many activities
+                        going on, and to see the active population taking part. With this positive 
+                        start, I believe that the rest of this year will follow suit, with the
+                        spring semester finishing strong. Throughout this time, my schedule has
+                        become: wake up, go to class, come home, and then go out. It is truly
+                        an exhilirating experience, with so much to do, and tons and tons of new
+                        people to meet and hang out with. My only hope is that this kind of life
+                        can continue, even with some spikes in covid around the city and state.
+                        Nevertheless, I am enthralled to see East Lansing once alive again,
+                        returning to it's former pre-Covid glory.
+                    </p>
                 </div>
-                <p><img alt="Life in downtown East Lansing" src="east_lansing_life.jpg" width="500" height="350"></p>
-            </article>
-            <h4>2021 Summer Vacation</h4>
-            <article class="blog-post">
-            <address class="author">Joey Griffin</address> on <time datetime="2021-10-13" title="October 13, 2021">10/13/2021</time>
-            <div style="width:600px;height:400px;">
-                <p>This past summer was filled with oppurtunity and great times. For the 
-            first time in forever, I visited Florida again to see Universal Studios
-            as well as DisneyWorld, and various other theme parks with my family. 
-            Shortly after, I made my long awaited trip back to California. I had
-            lived there 3 years ago, and was desperate for a return to see my old 
-            friends. The first two days back in my home, I spent with some high 
-            school friends and explored Santa Cruz and the beach. After that, I
-            went into San Francisco, with my father and two brothers: and we walked
-            the Golden Gate Bridge, and traveled around all the different communities
-            within the city. After the long day spent in SF, we went inland, towards
-            the Bay Area, to visit our old city and schools. After waking up at our
-            hotel, we drove around by some of our old schools, and visited our old 
-            house, even though I still call it my home. There was something special
-            about visiting our old city, and seeing how most of it had remained
-            unchained, as it was expecting our return. That my was favorite part
-            of the trip, to come back to a place, and see it exactly as how I left it.
-                </p>
+                <div class="column" style="background-color: #bbb;">
+                    <h4>2021 Summer Vacation</h4>
+                    <p>
+                        This past summer was filled with oppurtunity and great times. For the 
+                        first time in forever, I visited Florida again to see Universal Studios
+                        as well as DisneyWorld, and various other theme parks with my family. 
+                        Shortly after, I made my long awaited trip back to California. I had
+                        lived there 3 years ago, and was desperate for a return to see my old 
+                        friends. The first two days back in my home, I spent with some high 
+                        school friends and explored Santa Cruz and the beach. After that, I
+                        went into San Francisco, with my father and two brothers: and we walked
+                        the Golden Gate Bridge, and traveled around all the different communities
+                        within the city. After the long day spent in SF, we went inland, towards
+                        the Bay Area, to visit our old city and schools. After waking up at our
+                        hotel, we drove around by some of our old schools, and visited our old 
+                        house, even though I still call it my home. There was something special
+                        about visiting our old city, and seeing how most of it had remained
+                        unchained, as it was expecting our return. That my was favorite part
+                        of the trip, to come back to a place, and see it exactly as how I left it.
+                    </p>
+                </div>
             </div>
-                <p><img alt="Streets in San Francisco" src="san_francisco.jpg" width="500" height="350"></p>
+            <div class="rowpicture">
+                <div class="columnpicture">
+                    <img src="san_francisco.jpg" alt="Michigan State University" width="500" height="350">
+                </div>
+                <div class="columnpiture">
+                    <img src="east_lansing_life.jpg" alt="The City of East Lansing" width="500" height="350">
+                </div>
+            </div>
             </article>
                 <table>
                     <tr>
@@ -86,9 +95,9 @@
                         <td>Maryland</td>
                     </tr>
                 </table>
-            </article>
         </section>
         <section>
+            <h5>Sign Up Form</h5>
             <form>
                 <label>
                     Sign up for the newsletter
